@@ -15,6 +15,8 @@
 		<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+		<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
 	</head>
 	<body>
 
@@ -24,11 +26,9 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<a href="#me" class="icon fa-home active"><span>Home</span></a>
+						<a href="#about" class="icon fa-user"><span>About</span></a>
 						<a href="#work" class="icon fa-folder"><span>Work</span></a>
 						<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
-						<!-- <a href="https://github.com/akpark" class="icon fa-github"><span>Github</span></a>
-						<a href="#" class="icon fa-linkedin"><span>LinkedIn</span></a> -->
-						<!-- <a href="#" class="icon fa-twitter"><span>Twitter</span></a> -->
 					</nav>
 
 				<!-- Main -->
@@ -38,11 +38,28 @@
 							<article id="me" class="panel">
 								<header>
 									<h1>Andrew Park</h1>
-									<p>Forward Thinker, Problem Solver, Web Tinker</p>
+									<p>Forward Thinker, Problem Solver, Web Tinkerer</p>
 								</header>
+								<a href="#about" class="jumplink pic">
+									<span class="arrow icon fa-chevron-right"><span>Who am I?</span></span>
+								</a>
+							</article>
+
+						<!-- About -->
+							<article id="about" class="panel">
+								<p>
+									Hi, I’m a New York based software developer with experience in JavaScript, React.js, Ruby on Rails, and HTML/CSS.
+									A Class of '15 graduate, I pursued a bachelors in Computer Science and Economics.
+									My first course in programming was during my junior year in college; since then, I gradually began to fall in love with the
+									broad range of possibilities these logical lines of characters (code) can provide.
+								</p>
+
+								<p>Recently, I completed App Academy, an intensive full stack web development immersive that drilled into me the concepts of React.js and Ruby on Rails.
+									With these new found skills, I aim to continue my software journey and solve bigger problems in the world. Wish to connect? Shoot me a
+									<a class="jumplink" href="#contact">message!</a>
+								</p>
 								<a href="#work" class="jumplink pic">
 									<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
-									<!-- <img src="images/test-background.jpg" alt="" /> -->
 								</a>
 							</article>
 
@@ -72,7 +89,7 @@
 									</div>
 									<div class="row">
 										<div class="4u 12u$(mobile)">
-											<a href="http://akpark.github.io/ninjapop" class="image fit"><img src="images/ninjapop-screenshot.png" alt=""></a>
+											<a href="http://www.andrewpark.site/ninjapop" class="image fit"><img src="images/ninjapop-screenshot.png" alt=""></a>
 											<div class="project-description-outer">
 												<div class="project-description">
 													<h3>Ninja Pop</h3>
@@ -81,7 +98,7 @@
 														<li>Animates ninja, weapons, and bubble sprites with HTML5 canvas</li>
 														<li>Tracks key controls with jQuery event listeners for responsive gameplay</li>
 													</ul>
-													<p class="project-link"><a href="http://www.akpark.github.io/ninjapop">Live</a> | <a href="http://www.github.com/akpark/ninjapop">Github</a></p>
+													<p class="project-link"><a href="http://andrewpark.site/ninjapop">Live</a> | <a href="http://www.github.com/akpark/ninjapop">Github</a></p>
 												</div>
 											</div>
 										</div>
@@ -94,10 +111,10 @@
 													<h3>Active Record Lite</h3>
 													<h5>An arcade game inspired by Bubble Trouble.</h5>
 													<ul>
-														<li>Creates an Object Relational Mapping system using metaprogramming in Ruby</li>
+														<li>Creates an ORM system using metaprogramming in Ruby</li>
 														<li>Modules and multiple levels of inheritance keep code DRY</li>
 													</ul>
-													<p><a href="https://github.com/akpark/active_record_lite">Github</a></p>
+													<p class="project-link"><a href="https://github.com/akpark/active_record_lite">Github</a></p>
 												</div>
 											</div>
 										</div>
@@ -113,6 +130,13 @@
 													<td><i class="devicon-nodejs-plain"></i></td>
 													<td><i class="devicon-ruby-plain"></i></td>
 												</tr>
+												<!-- <tr class="icons-text">
+													<td>Html5</td>
+													<td>JavaScript</td>
+													<td>jQuery</td>
+													<td>NodeJS</td>
+													<td>Ruby</td>
+												</tr> -->
 												<tr>
 													<td><i class="devicon-rails-plain"></i></td>
 													<td><i class="devicon-react-original"></i></td>
@@ -120,49 +144,32 @@
 													<td><i class="devicon-css3-plain"></i></td>
 													<td><i class="devicon-git-plain"></i></td>
 												</tr>
+												<!-- <tr class="icons-text">
+													<td>Rails</td>
+													<td>React</td>
+													<td>Postgresql</td>
+													<td>CSS</td>
+													<td>Git</td>
+												</tr> -->
 											</table>
 										</div>
 									</div>
 								</section>
+								<a href="#contact" class="jumplink pic">
+									<span class="arrow icon fa-chevron-right"><span>Contact me!</span></span>
+								</a>
 							</article>
 
 						<!-- Contact -->
 							<article id="contact" class="panel">
-								<header>
-									<h2>Contact Me</h2>
-								</header>
-								<form action="#" method="post">
-									<div>
-										<div class="row">
-											<div class="6u 12u$(mobile)">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="6u$ 12u$(mobile)">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-											<div class="12u$">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="12u$">
-												<textarea name="message" placeholder="Message" rows="8"></textarea>
-											</div>
-											<div class="12u$">
-												<input type="submit" value="Send Message" />
-											</div>
-										</div>
-									</div>
-								</form>
+								<div class="contact-links">
+									<a href="https://github.com/akpark" class="icon fa-github"><span>Github</span></a>
+									<a href="https://www.linkedin.com/in/akpark93" class="icon fa-linkedin"><span>LinkedIn</span></a>
+									<a href="documents/andrew_park_resume.pdf" class="icon fa-file"><span>Resume</span></a>
+									<a href="mailto:ak.park93@gmail.com" class="icon fa-envelope"><span>Email</span></a>
+								</div>
 							</article>
 
-					</div>
-
-				<!-- Footer -->
-					<div id="footer">
-						<!-- <ul class="copyright"> -->
-							<a href="https://github.com/akpark" class="icon fa-github"></a>
-							<a href="#" class="icon fa-linkedin"></a>
-							<!-- <li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
-						<!-- </ul> -->
 					</div>
 
 			</div>
