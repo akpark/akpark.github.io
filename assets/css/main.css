@@ -494,6 +494,28 @@
 			margin-left: 7px;
 		}
 
+		.about-message {
+			color: #1D385B;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		.about-message:hover {
+			text-decoration: underline;
+		}
+
+		.about-resume {
+			/*color: blue;*/
+			color: #1D385B;
+			font-size: 22px;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		.about-resume:hover {
+			text-decoration: underline;
+		}
+
 		.\31 2u\28desktop\29, .\31 2u\24\28desktop\29 {
 			width: 100%;
 			clear: none;
