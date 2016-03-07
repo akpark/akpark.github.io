@@ -520,6 +520,15 @@
 			text-decoration: underline;
 		}
 
+		.email-link {
+			margin-top: 50px;
+			text-decoration: none;
+		}
+
+		.email-link a {
+			text-decoration: none;
+		}
+
 		.\31 2u\28desktop\29, .\31 2u\24\28desktop\29 {
 			width: 100%;
 			clear: none;
