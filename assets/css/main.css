@@ -1043,7 +1043,7 @@
 			display: block;
 			width: 50%;
 		  transition: 1s;
-			border: 2px solid black;
+			/*border: 1px solid black;*/
 			border-radius: 5px;
 		}
 
