@@ -1,3 +1,3 @@
 # Portfolio Site
 
-[Live](http://www.andrewpark.site)
+[Live](https://www.andrewpark.site)
